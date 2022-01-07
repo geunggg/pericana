@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>페리카나</title>
+    <!-- 파비콘 스타일 시트 -->
+    <link rel="shortcut icon" href="images/fa_z0C_icon.ico">
+    <!-- 기본 스타일시트 -->
+    <link rel="stylesheet" href="css/main_style.css">
+    <!-- 기본 스타일시트 -->
+    <link rel="stylesheet" href="css/toggle_style.css">
+    <!-- main 캐러셀 -->
+    <link rel='stylesheet' href='https://cdn.jsdelivr.net/jquery.slick/1.5.0/slick.css'>
+    <link rel='stylesheet' href='https://cdn.jsdelivr.net/jquery.slick/1.5.0/slick-theme.css'>
+    <!-- menu 캐러셀 -->
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css'>
+</head>
+<body>
+    <div id="lnb_wrapper">
+        <div id="lnb">
+            <div id="menu-container">
+              <div id="menu-wrapper">
+                <div id="hamburger-menu"><span></span><span></span><span></span></div>
+                <!-- hamburger-menu -->
+              </div>
+              <!-- menu-wrapper -->
+              <ul class="menu-list accordion">
+                <li id="nav1" class="toggle accordion-toggle"> 
+                    <span class="icon-plus"></span>
+                    <a class="menu-link" href="#">메뉴</a>
+                </li>
+                <!-- accordion-toggle -->
+                <ul class="menu-submenu accordion-content">
+                    <li><a class="head" href="#">신메뉴</a></li>
+                    <li><a class="head" href="#">치킨메뉴</a></li>
+                    <li><a class="head" href="#">사이드메뉴</a></li>
+                </ul>
+                <!-- menu-submenu accordon-content-->
+                <li id="nav2" class="toggle accordion-toggle"> 
+                    <span class="icon-plus"></span>
+                    <a class="menu-link" href="#">브랜드</a>
+                </li>
+                <!-- accordion-toggle -->
+                <ul class="menu-submenu accordion-content">
+                    <li><a class="head" href="#">회사소개</a></li>
+                    <li><a class="head" href="#">연혁</a></li>
+                    <li><a class="head" href="#">CEO 인사</a></li>
+                </ul>
+                <!-- menu-submenu accordon-content-->
+                      <li id="nav3" class="toggle accordion-toggle"> 
+                    <span class="icon-plus"></span>
+                    <a class="menu-link" href="#">창업스토리</a>
+                </li>
+                <!-- accordion-toggle -->
+                <ul class="menu-submenu accordion-content">
+                    <li><a class="head" href="#">창업안내</a></li>
+                    <li><a class="head" href="#">창업성공기</a></li>
+                    <li><a class="head" href="#">창업상담</a></li>
+                </ul>
+                <!-- menu-submenu accordon-content-->
+                <li id="nav4" class="toggle accordion-toggle"> 
+                  <span class="icon-plus"></span>
+                  <a class="menu-link" href="#">커뮤니티</a>
+                </li>
+                <!-- accordion-toggle -->
+                <ul class="menu-submenu accordion-content">
+                    <li><a class="head" href="#">페리카나소식</a></li>
+                    <li><a class="head" href="#">보도자료</a></li>
+                    <li><a class="head" href="#">고객의 소리</a></li>
+                </ul>
+                <!-- menu-submenu accordon-content-->
+                <li id="nav5" class="toggle accordion-toggle"> 
+                  <span class="icon-plus"></span>
+                  <a class="menu-link" href="#">E쿠폰</a>
+                </li>
+                <!-- accordion-toggle -->
+                <ul class="menu-submenu accordion-content">
+                    <li><a class="head" href="#">E-쿠폰</a></li>
+                    <li><a class="head" href="#">E-쿠폰 사용하기</a></li>
+                    <li><a class="head" href="#">신메뉴</a></li>
+                </ul>
+                <!-- menu-submenu accordon-content-->
+                <li id="nav6" class="toggle accordion-toggle"> 
+                  <span class="icon-plus"></span>
+                  <a class="menu-link" href="#">온라인주문</a>
+                </li>
+              </ul>
+              <!-- menu-list accordion-->
+          </div>
+            <div id="lnb_sns">
+                <img src="images/fb.png" width="20px" height="auto">
+                <img src="images/tw.png" width="20px" height="auto">
+                <img src="images/insta.png" width="20px" height="auto">
+                <img src="images/blog.png" width="20px" height="auto">
+            </div>
+            <div id="lnb_logo">
+                <img src="./images/logo.png">
+            </div>
+            <div id="lnb_login">
+                <img src="images/my.png" width="30px" height="auto">
+            </div>
+        </div>
+    </div>
+    <div id="gnb_wrapper">
+        <div id="gnb">
+            <ul class="top-menu" id="top-menu">
+                <li class="m_li">
+                  <a href="#">메뉴</a>
+                  <ul class="sub_menu">
+                    <li><a href="#">신메뉴</a></li>
+                    <li><a href="#">치킨메뉴</a></li>
+                    <li><a href="#">사이드메뉴</a></li>
+                  </ul>
+                </li>
+                <li class="m_li">
+                  <a href="#">브랜드</a>
+                  <ul class="sub_menu" id="sub02">
+                    <li><a href="#">회사소개</a></li>
+                    <li><a href="#">연혁</a></li>
+                    <li><a href="#">CEO 인사</a></li>
+                  </ul>
+                </li>
+                <li class="m_li">
+                  <a href="#">창업스토리</a>
+                  <ul class="sub_menu" id="sub03">
+                    <li><a href="#">창업안내</a></li>
+                    <li><a href="#">창업성공기</a></li>
+                    <li><a href="#">창업상담</a></li>
+                  </ul>
+                </li>
+                <li class="m_li">
+                    <a href="#">가맹점문의</a>
+                    <ul class="sub_menu" id="sub03">
+                      <li><a href="#">공지사항</a></li>
+                      <li><a href="#">이달의 우수점</a></li>
+                      <li><a href="#">자재발주</a></li>
+                      <li><a href="#">CEO건의사항</a></li>
+                    </ul>
+                </li>
+                <li class="m_li">
+                    <a href="#">커뮤니티</a>
+                    <ul class="sub_menu" id="sub03">
+                      <li><a href="#">페리카나소식</a></li>
+                      <li><a href="#">보도자료</a></li>
+                      <li><a href="#">고객의 소리</a></li>
+                    </ul>
+                </li>
+                <li class="m_li">
+                    <a href="#">E-쿠폰</a>
+                    <ul class="sub_menu" id="sub03">
+                      <li><a href="#">E-쿠폰</a></li>
+                      <li><a href="#">E-쿠폰 사용하기</a></li>
+                      <li><a href="#">신메뉴</a></li>
+                    </ul>
+                </li>
+                <li class='m_li' id='delivery'>
+                    <a href="#">온라인주문 <img src="./images/delivery.png" ></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <section id="main">
+      <div class="carousel">
+        <div class="item">
+          <div class="imageContainer">
+            <img src="./images/mainimage01.jpg" />
+          </div>
+        </div>
+        <div class="item">
+          <div class="imageContainer">
+            <img src="./images/mainimage02.jpg" />
+          </div>
+        </div>
+        <div class="item">
+          <div class="imageContainer">
+            <img src="./images/mainimage01.jpg" />       
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="menu">
+      <div class="container">
+        <div class="owl-carousel">
+          <div>
+            <img src="./images/menu01.png" alt="">
+            <h3>로스핀</h3>
+            <p>쫄깃한 통닭다리에 맛있게 매운 고추장 소스를 <br>발라 구운 후 다시 한 번 비법소스를 입힌 통다리 구이</p>
+          </div>
+          <div>
+            <img src="./images/menu02.png" alt="">
+            <h3>마늘치킨</h3>
+            <p>맛있게 튀겨진 오리지널치킨에 국내산 마늘을 <br>직접 갈아 마늘소스를 묻혀준 영양치킨</p>
+          </div>
+          <div>
+            <img src="./images/menu03.png" alt="">
+            <h3>반반치킨</h3>
+            <p>남녀노소 누구나 좋아하는 후라이드와<br>
+              페리카나 전통이 배어있는 양념치킨이<br>함께 어우러진 반반치킨</p>
+          </div>
+          <div>
+            <img src="./images/menu04.png" alt="">
+            <h3>치즈뿌리오</h3>
+            <p>바삭한 후라이드 위에 프리미엄급 <br>까망베르 치즈를 뿌려 고소하면서 짭조름한 치킨</p>
+          </div>
+          <div>
+            <img src="./images/menu05.png" alt="">
+            <h3>양념치킨</h3>
+            <p>신선한 20여가지 재료들이 <br>잘 조화된 매콤달콤한 페리카나의 대표 치킨</p>
+          </div>
+          <div>
+            <img src="./images/menu06.png" alt="">
+            <h3>파닭치킨</h3>
+            <p>맛있게 튀겨진 오리지널 치킨과 새콤달콤 <br>톡 쏘는 겨자소스를 버무려준 파채의 향긋한 만남</p>
+          </div>
+          <div>
+            <img src="./images/menu07.png" alt="">
+            <h3>핫데블치킨</h3>
+            <p>아시아 3국의 HOT한 맛이 한자리에!<br>처음 맛보는 매콤함에 불맛을 더한 치킨</p>
+          </div>
+          <div>
+            <img src="./images/menu08.png" alt="">
+            <h3>핫칠리치킨</h3>
+            <p>청양고추와 핫소스를 불에 졸여 완성한 치킨<br>어디에서도 맛볼 수 없던 매콤달콤한 맛</p>
+          </div>
+          <div>
+            <img src="./images/menu09.png" alt="">
+            <h3>후라이드치킨</h3>
+            <p>전통적인 물반죽을 이용한 치킨으로 <br>튀김옷이 얇아 바삭하고 속은 촉촉한 치킨</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contents01">
+      <div id="contents01_wrapper">
+        <div id="event">
+          <div id="event_img">
+            <img src="images/event_banner.png">
+            <div id="event_title">
+              <b id="pericana">FERICANA EVENT</b>
+              <p id="p_title">페리카나 이벤트</p>
+              <p>요기요 X 페리카나 <br>
+              대표메뉴 최대</p>
+              <b id="sale">9000원 할인 !</b><br>
+              <a href="#">지금 받으러 가기</a>
+            </div>
+          </div>
+        </div>
+        <div id="notice_wrapper">
+          <div class='notice_box' id='search'>
+            <b>전국 페리카나 매장 찾기</b>
+            <p>우리집과 가장 가까운<br>
+            페리카나치킨 매장을 찾아보세요</p>
+            <div id="address_icon">
+              <input type="text" size="10" name="address"/>
+              <input type="image" src="images/search.png" alt="검색버튼" >
+            </div>
+          </div>
+          <div class='notice_box' id='notice'>
+            <div id="notice_flex">
+              <p>공지사항</p>
+              <img src="images/plus.png">
+            </div>
+            <ul>
+                <li class="notice_detail"><a href="#">
+                    <ul>
+                        <li>페리카나 휴무 안내</li>
+                        <li class="date">2021-08-12</li>
+                    </ul>
+                </a></li>
+                <li class="notice_detail"><a href="#">
+                    <ul>
+                        <li>페리카나 가맹본부 이전 안내</li>
+                        <li class="date">2021-07-23</li>
+                    </ul>
+                </a></li>
+                <li class="notice_detail"><a href="#">
+                    <ul>
+                        <li>핫데블치킨 제품구성 변경</li>
+                        <li class="date">2021-06-15</li>
+                    </ul>
+                </a></li>
+                <li class="notice_detail"><a href="#">
+                    <ul>
+                        <li>사이드메뉴 꼬들목 출시</li>
+                        <li class="date">2021-04-29</li>
+                    </ul>
+                </a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contents02">
+      <div id="icon_flex">
+        <div class="i_flex_st">
+          <div class="icon_img">
+            <a href="#" onMouseOver="icon01.src='images/icon01_1.png'" onMouseOut="icon01.src='images/icon01.png'"><img src="images/icon01.png" name="icon01" border="0"></a>
+          </div>
+          <div class="i_text">
+            <p>가맹점 문의</p>
+          </div>
+        </div>
+        <div class="i_flex_st">
+          <div class="icon_img">
+            <a href="#" onMouseOver="icon02.src='images/icon02_1.png'" onMouseOut="icon02.src='images/icon02.png'"><img src="images/icon02.png" name="icon02" border="0"></a>
+          </div>
+          <div class="i_text">
+            <p>이벤트 안내</p>
+          </div>
+        </div>
+        <div class="i_flex_st">
+          <div class="icon_img">
+            <a href="#" onMouseOver="icon03.src='images/icon03_1.png'" onMouseOut="icon03.src='images/icon03.png'"><img src="images/icon03.png" name="icon03" border="0"></a>
+          </div>
+          <div class="i_text">
+            <p>보도자료</p>
+          </div>
+        </div>
+        <div class="i_flex_st">
+          <div class="icon_img">
+            <a href="#" onMouseOver="icon04.src='images/icon04_1.png'" onMouseOut="icon04.src='images/icon04.png'"><img src="images/icon04.png" name="icon04" border="0"></a>
+          </div>
+          <div class="i_text">
+            <p>미디어</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div id="footer_wrapper">
+        <div id="footer_logo">
+          <img src="images/logo_b.png" width="180px" height="auto">
+        </div>
+        <div id="footer_detail">
+          <ul>
+            <li><a href="#" id='first'>이용약관</a></li>
+            <li><a href="#">개인정보취급방침</a></li>
+            <li><a href="#">이메일무단수집거부</a></li>
+            <li><a href="#">고객센터</a></li>
+            <li><a href='#' id='last'>사이트맵</a></li>
+          </ul>
+            <p>충남 계룡시 두마면 왕대로 69-10, 3층 대표이사:양희권 사업자번호: 314-81-03278</p>
+            <p>통신판매업신고번호 : 제2018-충남계룡-0007호Tel:042-551-2211Fax:042-551-4600</p>
+            <p>COPYRIGHT © 2021 PELICANA.ALL RIGHTS RESERVED</p>
+        </div>
+        <div id="footer_call">
+          <div id="calling">
+            <p>전화주문</p>
+            <img src="./images/call.png" width="35px" height="auto">
+            <b>1588-9292</b>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <nav id="top_btn">
+      <a href="#">TOP</a>
+    </nav>
+<!-- script 부분 -->
+<script src="js/jquery-2.2.4.min.js"></script>
+<!-- main carousel -->
+<script src='https://cdn.jsdelivr.net/jquery.slick/1.5.0/slick.min.js'></script><script  src="./js/main.js"></script>
+<!-- menu carousel-->
+<script src='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js'></script><script  src="./js/menu.js"></script>
+<!-- accord js -->
+<script  src="./js/toggle.js"></script>
+</body>
+</html>
